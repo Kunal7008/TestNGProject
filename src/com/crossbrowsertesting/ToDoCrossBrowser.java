@@ -26,6 +26,6 @@ public void data(String browser) {
 }
 @Test
 public void how() throws InterruptedException {
-	driver1.get("https://jio.com");
+	driver1.get("https://flipkart.com");
 }
 }

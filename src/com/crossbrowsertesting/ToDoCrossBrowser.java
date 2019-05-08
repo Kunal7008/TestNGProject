@@ -12,6 +12,7 @@ public class ToDoCrossBrowser {
 	WebDriver driver1;
 	@BeforeTest
 @Parameters("browser")
+	// doing webhook testing
 public void data(String browser) {
 	if(browser.equalsIgnoreCase("chrome")) {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\KUNAL BHATTA\\Downloads\\chromedriver.exe");
